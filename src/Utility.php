@@ -4,7 +4,7 @@ namespace Razorpay\Api;
 
 class Utility
 {
-    const SHA256 = 'sha256';
+    public const SHA256 = 'sha256';
 
     public function verifyPaymentSignature($attributes)
     {

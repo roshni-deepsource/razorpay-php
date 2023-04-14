@@ -16,9 +16,9 @@ use WpOrg\Requests\Exception\Transport;
  */
 final class Curl extends Transport {
 
-	const EASY  = 'cURLEasy';
-	const MULTI = 'cURLMulti';
-	const SHARE = 'cURLShare';
+	public const EASY  = 'cURLEasy';
+	public const MULTI = 'cURLMulti';
+	public const SHARE = 'cURLShare';
 
 	/**
 	 * cURL error code

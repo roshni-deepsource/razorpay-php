@@ -21,7 +21,7 @@ interface Capability {
 	 *
 	 * @var string
 	 */
-	const SSL = 'ssl';
+	public const SSL = 'ssl';
 
 	/**
 	 * Collection of all capabilities supported in Requests.
@@ -30,7 +30,7 @@ interface Capability {
 	 *
 	 * @var array<string>
 	 */
-	const ALL = [
+	public const ALL = [
 		self::SSL,
 	];
 }

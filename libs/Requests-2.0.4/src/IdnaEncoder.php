@@ -23,7 +23,7 @@ class IdnaEncoder {
 	 * @link https://tools.ietf.org/html/rfc3490#section-5
 	 * @var string
 	 */
-	const ACE_PREFIX = 'xn--';
+	public const ACE_PREFIX = 'xn--';
 
 	/**
 	 * Maximum length of a IDNA URL in ASCII.
@@ -34,7 +34,7 @@ class IdnaEncoder {
 	 *
 	 * @var int
 	 */
-	const MAX_LENGTH = 64;
+	public const MAX_LENGTH = 64;
 
 	/**#@+
 	 * Bootstrap constant for Punycode
@@ -42,13 +42,13 @@ class IdnaEncoder {
 	 * @link https://tools.ietf.org/html/rfc3492#section-5
 	 * @var int
 	 */
-	const BOOTSTRAP_BASE         = 36;
-	const BOOTSTRAP_TMIN         = 1;
-	const BOOTSTRAP_TMAX         = 26;
-	const BOOTSTRAP_SKEW         = 38;
-	const BOOTSTRAP_DAMP         = 700;
-	const BOOTSTRAP_INITIAL_BIAS = 72;
-	const BOOTSTRAP_INITIAL_N    = 128;
+	public const BOOTSTRAP_BASE         = 36;
+	public const BOOTSTRAP_TMIN         = 1;
+	public const BOOTSTRAP_TMAX         = 26;
+	public const BOOTSTRAP_SKEW         = 38;
+	public const BOOTSTRAP_DAMP         = 700;
+	public const BOOTSTRAP_INITIAL_BIAS = 72;
+	public const BOOTSTRAP_INITIAL_N    = 128;
 	/**#@-*/
 
 	/**

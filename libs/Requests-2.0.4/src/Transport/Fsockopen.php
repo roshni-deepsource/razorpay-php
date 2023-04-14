@@ -28,7 +28,7 @@ final class Fsockopen implements Transport {
 	 *
 	 * @var integer
 	 */
-	const SECOND_IN_MICROSECONDS = 1000000;
+	public const SECOND_IN_MICROSECONDS = 1000000;
 
 	/**
 	 * Raw HTTP data

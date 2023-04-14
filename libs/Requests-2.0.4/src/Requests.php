@@ -40,49 +40,49 @@ class Requests {
 	 *
 	 * @var string
 	 */
-	const POST = 'POST';
+	public const POST = 'POST';
 
 	/**
 	 * PUT method
 	 *
 	 * @var string
 	 */
-	const PUT = 'PUT';
+	public const PUT = 'PUT';
 
 	/**
 	 * GET method
 	 *
 	 * @var string
 	 */
-	const GET = 'GET';
+	public const GET = 'GET';
 
 	/**
 	 * HEAD method
 	 *
 	 * @var string
 	 */
-	const HEAD = 'HEAD';
+	public const HEAD = 'HEAD';
 
 	/**
 	 * DELETE method
 	 *
 	 * @var string
 	 */
-	const DELETE = 'DELETE';
+	public const DELETE = 'DELETE';
 
 	/**
 	 * OPTIONS method
 	 *
 	 * @var string
 	 */
-	const OPTIONS = 'OPTIONS';
+	public const OPTIONS = 'OPTIONS';
 
 	/**
 	 * TRACE method
 	 *
 	 * @var string
 	 */
-	const TRACE = 'TRACE';
+	public const TRACE = 'TRACE';
 
 	/**
 	 * PATCH method
@@ -90,14 +90,14 @@ class Requests {
 	 * @link https://tools.ietf.org/html/rfc5789
 	 * @var string
 	 */
-	const PATCH = 'PATCH';
+	public const PATCH = 'PATCH';
 
 	/**
 	 * Default size of buffer size to read streams
 	 *
 	 * @var integer
 	 */
-	const BUFFER_SIZE = 1160;
+	public const BUFFER_SIZE = 1160;
 
 	/**
 	 * Option defaults.
@@ -109,7 +109,7 @@ class Requests {
 	 *
 	 * @var array
 	 */
-	const OPTION_DEFAULTS = [
+	public const OPTION_DEFAULTS = [
 		'timeout'          => 10,
 		'connect_timeout'  => 10,
 		'useragent'        => 'php-requests/' . self::VERSION,
@@ -138,7 +138,7 @@ class Requests {
 	 *
 	 * @var array
 	 */
-	const DEFAULT_TRANSPORTS = [
+	public const DEFAULT_TRANSPORTS = [
 		Curl::class      => Curl::class,
 		Fsockopen::class => Fsockopen::class,
 	];
@@ -148,7 +148,7 @@ class Requests {
 	 *
 	 * @var string
 	 */
-	const VERSION = '2.0.4';
+	public const VERSION = '2.0.4';
 
 	/**
 	 * Selected transport name

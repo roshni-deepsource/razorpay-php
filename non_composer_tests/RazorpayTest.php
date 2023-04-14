@@ -8,7 +8,7 @@ use Razorpay\Api\Api;
 
 class RazorpayTest extends \PHPUnit_Framework_TestCase
 {
-    function setUp()
+    public function setUp()
     {
         $this->api = new Api($_SERVER['KEY_ID'], $_SERVER['KEY_SECRET']);
     }

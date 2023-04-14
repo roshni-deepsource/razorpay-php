@@ -23,8 +23,8 @@ use WpOrg\Requests\Utility\InputValidator;
  * @package Requests\Transport
  */
 final class Curl implements Transport {
-	const CURL_7_10_5 = 0x070A05;
-	const CURL_7_16_2 = 0x071002;
+	public const CURL_7_10_5 = 0x070A05;
+	public const CURL_7_16_2 = 0x071002;
 
 	/**
 	 * Raw HTTP data

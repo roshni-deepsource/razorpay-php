@@ -24,28 +24,28 @@ final class Port {
 	 *
 	 * @var int
 	 */
-	const ACAP = 674;
+	public const ACAP = 674;
 
 	/**
 	 * Port to use with Dictionary requests.
 	 *
 	 * @var int
 	 */
-	const DICT = 2628;
+	public const DICT = 2628;
 
 	/**
 	 * Port to use with HTTP requests.
 	 *
 	 * @var int
 	 */
-	const HTTP = 80;
+	public const HTTP = 80;
 
 	/**
 	 * Port to use with HTTP over SSL requests.
 	 *
 	 * @var int
 	 */
-	const HTTPS = 443;
+	public const HTTPS = 443;
 
 	/**
 	 * Retrieve the port number to use.
