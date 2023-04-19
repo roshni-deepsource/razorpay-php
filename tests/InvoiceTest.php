@@ -13,8 +13,6 @@ class InvoiceTest extends TestCase
 
     private $invoiceId = "inv_IH69XFNA9IMQ7k";
 
-    private $invoiceIdNotify = "inv_JM5rC3ddYKVWgy";
-
     private $customerId = "cust_IEfAt3ruD4OEzo";
 
     public function setUp(): void

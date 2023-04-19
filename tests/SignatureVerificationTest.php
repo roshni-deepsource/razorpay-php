@@ -6,8 +6,6 @@ use Razorpay\Api\Request;
 
 class SignatureVerificationTest extends TestCase
 {
-    private static $subscriptionId;
-
     public function setUp(): void
     {
         parent::setUp();
