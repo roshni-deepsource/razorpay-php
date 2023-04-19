@@ -15,8 +15,6 @@ class EmandateTest extends TestCase
     
     private $invoiceId = "inv_JM5rC3ddYKVWgy";
 
-    private $tokenId = "token_IF1ThOcFC9J7pU";
-
     public function setUp(): void
     {
         parent::setUp();
